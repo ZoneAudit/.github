@@ -16,7 +16,7 @@ ZoneAudit provides high-velocity telemetry collection and AI-driven analysis to 
 
 ### 🇬🇧 British Engineering
 
-We build for scale, precision, and clarity. Our reporting is designed to pass the **"3 am wake-up test"**—delivering the critical status of your attack surface in under 3 seconds.
+We build for scale, precision, and clarity. Our reporting is designed to pass the **"3 am wake-up test"**: delivering the critical status of your attack surface in under 3 seconds.
 
 ---
 
