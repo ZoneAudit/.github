@@ -9,8 +9,6 @@ ZoneAudit provides high-velocity telemetry collection and AI-driven analysis to 
 ### 🛠️ Ecosystem & Core Projects
 
 - **[zoneaudit-cli](https://github.com/ZoneAudit/zoneaudit-cli)**: High-performance Go utility for concurrent subdomain discovery and SSL/TLS validation. The "Community Edition" heartbeat of our data collection.
-- **DeepScan Intelligence Backend**: Symfony/API Platform backend orchestrating the intelligence pipeline.
-- **ZoneAudit LP**: Nuxt 3-powered intelligent reporting interface and dashboard.
 
 ---
 
