@@ -24,8 +24,8 @@
   <rect x="40" y="210" width="80" height="4" fill="#e1163c" />
 
   <!-- Descriptive Text -->
-  <text x="40" y="250" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Map digital perimeters at scale</text>
-  <text x="40" y="275" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">with high-velocity Go telemetry.</text>
+  <text x="40" y="250" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Tactical discovery of core</text>
+  <text x="40" y="275" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">perimeters with Go telemetry.</text>
 
   <!-- Tech Graphic (Positioned in center/bottom area) -->
   <g opacity="0.4" transform="translate(140, 320) scale(1.1)">

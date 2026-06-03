@@ -14,7 +14,7 @@ ZoneAudit™ provides high-velocity telemetry collection and engineering-led ana
       <img src="assets/community-card-portrait.svg" width="100%" alt="ZoneAudit™ Community Edition" /><br/>
       <br/>
       <b>ZoneAudit™ Community Edition</b><br/>
-      Map digital perimeters at scale with high-velocity concurrent Go telemetry.<br/>
+      Tactical discovery of core digital perimeters with high-velocity Go telemetry.<br/>
       <br/>
       <a href="https://github.com/ZoneAudit/zoneaudit-cli"><b>Explore the CLI →</b></a>
     </td>
