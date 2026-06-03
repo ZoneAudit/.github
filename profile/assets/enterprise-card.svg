@@ -1,0 +1,44 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#000033" />
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid-ent" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1163c;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#000033;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#grid-ent)" />
+  <rect width="800" height="400" fill="url(#glow)" />
+
+  <!-- Primary Accent Bar -->
+  <rect x="0" y="320" width="800" height="80" fill="#e1163c" />
+
+  <!-- Tech Graphic (Engine/Radar style) -->
+  <g opacity="0.6" transform="translate(600, 150)">
+    <circle cx="0" cy="0" r="80" fill="none" stroke="white" stroke-width="1" stroke-dasharray="5,5" />
+    <circle cx="0" cy="0" r="50" fill="none" stroke="white" stroke-width="2" />
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="white" stroke-opacity="0.2" />
+    <line x1="-90" y1="0" x2="90" y2="0" stroke="white" stroke-opacity="0.2" />
+    <circle cx="30" cy="-30" r="6" fill="#e1163c" />
+    <circle cx="-10" cy="40" r="4" fill="white" />
+  </g>
+
+  <!-- Typography -->
+  <text x="40" y="80" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="bold" fill="white" letter-spacing="2">ZONEAUDIT™</text>
+  <text x="40" y="140" font-family="Montserrat, Arial, sans-serif" font-size="48" font-weight="900" fill="white">Enterprise</text>
+  
+  <!-- Red Bar -->
+  <rect x="40" y="165" width="80" height="4" fill="#e1163c" />
+
+  <!-- Actionable Text -->
+  <text x="40" y="210" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">Drive operational clarity with</text>
+  <text x="40" y="240" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">the active DeepScan™ engine</text>
+  <text x="40" y="270" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">and intelligence pipeline.</text>
+  
+  <text x="40" y="370" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="bold" fill="white">PRECISION ANALYSIS</text>
+</svg>

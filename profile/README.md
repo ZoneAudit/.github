@@ -1,28 +1,88 @@
-# ZoneAudit
+# ZoneAudit™
 
-**Global Attack Surface Management & Intelligent Domain Intelligence.**
+**Global attack surface management and actionable domain intelligence.**
 
-ZoneAudit provides high-velocity telemetry collection and AI-driven analysis to maintain a continuous, validated map of your digital perimeter. Our ecosystem is designed to bridge the gap between raw network data and actionable executive intelligence.
-
----
-
-### 🛠️ Ecosystem & Core Projects
-
-- **[zoneaudit-cli](https://github.com/ZoneAudit/zoneaudit-cli)**: High-performance Go utility for concurrent subdomain discovery and SSL/TLS validation. The "Community Edition" heartbeat of our data collection.
+ZoneAudit™ provides high-velocity telemetry collection and engineering-led analysis to maintain a continuous, validated map of your digital perimeter. The ecosystem is designed to bridge the gap between raw network data and operational clarity.
 
 ---
 
-### 🇬🇧 British Engineering
+### Ecosystem and core projects
 
-We build for scale, precision, and clarity. Our reporting is designed to pass the **"3 am wake-up test"**: delivering the critical status of your attack surface in under 3 seconds.
+<table>
+  <tr>
+    <td width="45%" valign="top">
+      <img src="assets/community-card-portrait.svg" width="100%" alt="ZoneAudit™ Community Edition" /><br/>
+      <br/>
+      <b>ZoneAudit™ Community Edition</b><br/>
+      Map digital perimeters at scale with high-velocity concurrent Go telemetry.<br/>
+      <br/>
+      <a href="https://github.com/ZoneAudit/zoneaudit-cli"><b>Explore the CLI →</b></a>
+    </td>
+    <td width="10%"></td>
+    <td width="45%" valign="top">
+      <img src="assets/enterprise-card-portrait.svg" width="100%" alt="ZoneAudit™ Enterprise" /><br/>
+      <br/>
+      <b>ZoneAudit™ Enterprise</b><br/>
+      Drive operational clarity with the active DeepScan™ engine and intelligence pipeline.<br/>
+      <br/>
+      <a href="https://zoneaudit.com"><b>Join the waitlist →</b></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🌐 Connect with us
+### Data to insight flow
+
+```mermaid
+graph TD
+    subgraph collection [Telemetry collection]
+        direction TB
+        A[zoneaudit-cli]
+        B[DeepScan Agent™]
+    end
+
+    subgraph engine [Intelligence engine]
+        direction TB
+        E(DeepScan™ engine)
+        F(AI discovery and triage)
+    end
+
+    subgraph output [Operational clarity]
+        direction TB
+        G[DeepScan Intelligent Insight™]
+    end
+
+    collection --> engine
+    engine --> output
+
+    %% Styling
+    style G fill:#fefefe,stroke:#333,stroke-width:2px
+    style E fill:#f5f5f5,stroke:#333
+    style F fill:#f5f5f5,stroke:#333
+    style collection fill:none,stroke:#ddd,stroke-dasharray: 5 5
+    style engine fill:none,stroke:#ddd,stroke-dasharray: 5 5
+    style output fill:none,stroke:#ddd,stroke-dasharray: 5 5
+```
+
+---
+
+### Open source and community
+
+ZoneAudit™ is built on a foundation of open telemetry. We believe that mapping the digital perimeter should be accessible, high-velocity, and community-driven.
+
+- **Contribute**: We welcome pull requests for the [zoneaudit-cli](https://github.com/ZoneAudit/zoneaudit-cli), especially for new heuristics and scanning optimisations.
+- **Heuristics**: Help us engineer new ways to spot orphaned infrastructure and misconfigured records.
+- **Feedback**: Open an issue to discuss architectural improvements or feature requests.
+
+---
+
+### Connect with us
 
 - **Website**: [zoneaudit.com](https://zoneaudit.com)
 - **LinkedIn**: [ZoneAudit on LinkedIn](https://www.linkedin.com/company/zoneaudit)
-- **Ecosystem**: Part of the [CobraSphere](https://github.com/CobraSphere) network.
+- **Engineering**: A [CobraSphere](https://github.com/CobraSphere) technical excellence initiative.
 
 ---
-*Built with precision in the United Kingdom.*
+
+_Built with precision in the United Kingdom._

@@ -1,0 +1,40 @@
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#000033" />
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid-port" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="600" fill="url(#grid-port)" />
+
+  <!-- Primary Accent Bar -->
+  <rect x="0" y="520" width="400" height="80" fill="#e1163c" />
+
+  <!-- Typography: Header -->
+  <text x="40" y="80" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="bold" fill="white" letter-spacing="2">ZONEAUDIT™</text>
+  
+  <!-- Main Title Stack -->
+  <text x="40" y="140" font-family="Montserrat, Arial, sans-serif" font-size="36" font-weight="900" fill="white">Community</text>
+  <text x="40" y="190" font-family="Montserrat, Arial, sans-serif" font-size="36" font-weight="900" fill="white">Edition</text>
+  
+  <!-- Red Bar -->
+  <rect x="40" y="210" width="80" height="4" fill="#e1163c" />
+
+  <!-- Descriptive Text -->
+  <text x="40" y="250" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Map digital perimeters at scale</text>
+  <text x="40" y="275" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">with high-velocity Go telemetry.</text>
+
+  <!-- Tech Graphic (Positioned in center/bottom area) -->
+  <g opacity="0.4" transform="translate(140, 320) scale(1.1)">
+    <rect x="0" y="0" width="120" height="160" rx="4" fill="none" stroke="white" stroke-width="2" />
+    <line x1="10" y1="30" x2="110" y2="30" stroke="white" stroke-width="1" />
+    <path d="M 20 50 L 40 50 M 20 70 L 80 70 M 20 90 L 60 90" stroke="white" stroke-width="2" />
+    <circle cx="100" cy="140" r="10" fill="#e1163c" />
+  </g>
+  
+  <!-- Bottom Bar Text -->
+  <text x="200" y="570" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">OSS / GO-POWERED</text>
+</svg>
