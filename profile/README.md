@@ -25,7 +25,7 @@ ZoneAudit reads a domain's public records, such as DNS, certificates and registr
       <b>ZoneAudit Enterprise</b><br/>
       Prioritised, evidenced reports from passive public records, with no probing. Preparing to launch.<br/>
       <br/>
-      <a href="https://zoneaudit.com"><b>Join the waitlist →</b></a>
+      <a href="https://zoneaudit.com/en-gb/access"><b>Request access →</b></a>
     </td>
   </tr>
 </table>
