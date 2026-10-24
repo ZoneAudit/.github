@@ -28,9 +28,9 @@
   <rect x="40" y="160" width="80" height="4" fill="#e1163c" />
 
   <!-- Descriptive Text -->
-  <text x="40" y="200" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Drive operational clarity with</text>
-  <text x="40" y="225" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">the active DeepScan™ engine</text>
-  <text x="40" y="250" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">and intelligence pipeline.</text>
+  <text x="40" y="200" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Prioritised, evidenced reports</text>
+  <text x="40" y="225" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">from passive public records.</text>
+  <text x="40" y="250" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Preparing to launch.</text>
 
   <!-- Tech Graphic (Engine/Radar style) -->
   <g opacity="0.6" transform="translate(200, 380)">

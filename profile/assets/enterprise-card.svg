@@ -36,9 +36,9 @@
   <rect x="40" y="165" width="80" height="4" fill="#e1163c" />
 
   <!-- Actionable Text -->
-  <text x="40" y="210" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">Drive operational clarity with</text>
-  <text x="40" y="240" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">the active DeepScan™ engine</text>
-  <text x="40" y="270" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">and intelligence pipeline.</text>
+  <text x="40" y="210" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">Prioritised, evidenced reports</text>
+  <text x="40" y="240" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">from passive public records.</text>
+  <text x="40" y="270" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">Preparing to launch.</text>
   
   <text x="40" y="370" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="bold" fill="white">PRECISION ANALYSIS</text>
 </svg>
